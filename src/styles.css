@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  background-color: coral;
+  text-align: center;
+}
+
+input [type="text"] {
+  text-align: center;
+}
+
+textarea{
+  width: 300px
+  height: 280px;
+}
+
+#result {
+  display: none;
+}
