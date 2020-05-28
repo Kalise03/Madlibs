@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <title>Mad Libs</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Mad Libs</h1>
+    <p>A Note for Someone You Love </p>
+
+    <form id="fill">
+    <div>
+
+      <label for="pluralN">Plural Noun: &nbsp</label>
+      <input type="text" id="pluralN" />
+    </div>
+
+  </br>
+
+    <div>
+      <label for="noun1">Noun: &nbsp</label>
+      <input type="text" id="noun1" />
+    </div>
+
+  </br>
+
+    <div>
+      <label for="noun2">Noun: &nbsp</label>
+      <input type="text" id="noun2" />
+    </div>
+
+  </br>
+
+    <div>
+      <label for="song">Song: &nbsp</label>
+      <input type="text" id="song" />
+    </div>
+
+  </br>
+
+    <div>
+      <label for="verb">Verb: &nbsp</label>
+      <input type="text" id="verb" />
+    </div>
+
+  </br>
+  </br>
+      <input type="button" id="nextButton" value="Submit">
+   </form>
+
+    <div class="wrapper" id="result">
+             <div>
+               <textarea id="textBox" readonly></textarea>
+         <div>
+         <input class="button" type="reset" id="tryAgainButton" forms="fill" value="Try Again" />
+     </div>
+
+  <script src="src/index.js"></script>
+  </body>
+</html>
